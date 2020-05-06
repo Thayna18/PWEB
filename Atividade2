@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>atv02</title>
+    <meta name="description" content="An interactive getting started guide for Brackets.">
+    <link rel="stylesheet" href="atv02.css">
+</head>
+
+<body>
+
+    <nav>
+        <ul id="nav">
+
+            <li><a href="#bilioteca"> Biblioteca Infantil</a></li>
+            <li><a href="#estação"> Estação Ferroviária</a></li>
+            <li><a href="#biquinha"> Parque da Biquinha</a></li>
+            <li><a href="#teatro"> Teatro Municipal</a></li>
+            <li><a href="#usina">Usina Cultural</a></li>
+        </ul>
+
+    </nav>
+
+    <section>
+        <header>
+            <h1> Guia Turístico Sorocaba </h1>
+
+
+        </header>
+
+        <article>
+            <h2 id="biblioteca"> Biblioteca Infantil</h2>
+            <p>
+
+                <figure>
+
+                    <img src="./Assets/biblioteca.jpg" alt="bibilioteca Infantil" title="Biblioteca Infantil">
+
+                </figure>
+                A Biblioteca Infantil Municipal "Renato Sêneca de Sá Fleury" está instalada em prédio tombado pelo Conselho do Patrimônio Histórico de Sorocaba. Sua construção data de 1897.
+                É o único imóvel público do Centro que mantém as características do final do século XIX, além do jardim interno e quintal, com um Circo e Cozinha Caipira, utilizados para atividades culturais, cursos e apresentações artísticas. Seu acervo reúne diversos livros, revistas, gibiteca, fonoteca e brinquedoteca.
+            </p>
+            <p>
+                Endereço: Rua da Penha, 673 - Centro<br>
+                Telefone: (15) 3231.5723<br>
+                Horário de funcionamento: Segunda a sexta, das 8h às 17h.<br>
+                Entrada: Gratuita
+            </p>
+
+        </article>
+        <article>
+            <h2 id=estação> Estação ferroviária </h2>
+            <p>
+                <figure>
+                    <img src="./Assets/Ferroviaria.jpg" alt="Estação Ferroviária" title="Estação Ferroviária">
+                </figure>
+
+                A Estação Ferroviária foi inaugurada em 1875, como o ponto final da Estrada de Ferro Sorocabana que, não por acaso, tem esse nome: a ideia original dos donos era ligar Sorocaba a São Paulo pelo caminho mais curto. A Sorocabana teve grande importância para o desenvolvimento econômico de Sorocaba e do Brasil, principalmente entre o final do século XIX e o início do XX.
+            </p>
+            <p>
+                A Prefeitura de Sorocaba recebeu o direito de uso do prédio histórico e dos dois armazéns anexos à estação da antiga Rede Ferroviária Federal, em 2006.
+            </p>
+            <p>
+                Endereço: Av. Afonso Vergueiro, s/nº, Centro.
+            </p>
+
+        </article>
+        <article>
+            <h2 id="biquinha">Parque da Biquinha</h2>
+            <p>
+                <figure>
+                    <img src="./Assets/biquinha.jpg" alt="Parque da Biquinha" title="Parque da Biquinha">
+                </figure>
+
+                Com ótima localização, próximo ao centro da cidade, o Parque foi criado em 1976 e encontra-se numa área verde que ocupa cerca de um alqueire. Essa área de topografia acidentada, é privilegiada por fazer parte de uma bacia hidrográfica com nascentes e lago que embelezam a paisagem.
+            </p>
+            <p>
+                A vegetação original foi enriquecida com mudas de plantas exóticas de várias regiões brasileiras, atraindo e fornecendo alimento para diversas espécies de aves, a maioria delas adaptadas a áreas urbanas.
+                <br>Seu ambiente agradável e aconchegante, com aspectos históricos e topográficos, é um convite permanente as famílias, amigos, professores e alunos em busca de contato com a natureza, lazer educativo e melhor qualidade de vida.
+            </p>
+            <h4>Outras Informações</h4>
+            <p>
+                Área: 27.470 m2.<br>
+                Atrativos: Playground, quiosques, nascentes, bica, córrego, lago, vegetação, trilhas, cursos, visitas monitoradas, observação de Aves e eventos em finais de semana.
+                <br>
+                Endereço do Parque: Av. Comendador Pereira Inácio, 1112- Jd. Emília
+                <br>Telefone:(15) 3224-1997
+                <br>Funcionamento: Todos os dias das 8h às 17h.
+            </p>
+
+        </article>
+        <article>
+            <h2 id="teatro"> Teatro Municipal </h2>
+            <p>
+                <figure>
+                    <img src="./Assets/teatro.jpg" alt="Teatro Municipal" title="Teatro Municipal">
+                </figure>
+                O hall de entrada abriga o acervo da Coleção de Objetos Cênicos "Osório T. Morais", que preserva objetos e documentação dos espetáculos ali exibidos.
+            </p>
+            <p>
+                Endereço: Avenida Engº. Carlos Reinaldo Mendes, s/nº, Alto da Boa Vista.
+                <br>Telefone: (15) 3238.2222
+
+            </p>
+
+        </article>
+        <article>
+            <h2 id="usina"> Usina Cultural </h2>
+            <p>
+                <figure>
+                    <img src="./Assets/usina.jpg" alt="usina" title="Usina Cultural">
+                </figure>
+                Prédio histórico tombado em 1996 e localizado à margem do Rio Sorocaba, a Usina Cultural "Ettore Marangoni" é um espaço cultural alternativo para apresentações de peças teatrais, cinema e dança.
+            </p>
+            <p>
+                O espaço possui arquitetura que expressa requinte e beleza, sendo uma das mais significativas que surgiram em Sorocaba entre o final do século XIX e início do XX.
+            </p>
+
+            <p>
+                Naquela época, a cidade estava no início do ciclo econômico comandado pela indústria têxtil, período em que a energia elétrica era escassa e insuficiente para atender a demanda da crescente produção industrial.
+            </p>
+            <p> Endereço: margem direita do Rio Sorocaba, com acesso pela Rua Padre Madureira.
+            </p>
+        </article>
+        <br>
+        <br>
+        <footer>
+            <p><strong>Escrito por Thayná Surano</strong></p>
+            <p><strong>Publicado em 09/03/2020 </strong> </p>
+        </footer>
+
+    </section>
+
+</body>
+
+</html>
