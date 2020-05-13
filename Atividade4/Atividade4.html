@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body> 
+    <script>
+        var escolhaP, escolhaC, num, resultado, p;
+        
+        p = prompt("Escolha entre PEDRA, PAPEL, TESOURA\nInforme uma ação: ");
+        escolhaP = p.toUpperCase();
+        num = Math.random();        
+        alert("É a vez do computador")
+        
+        if(num < 0.34)
+            escolhaC = "PEDRA";
+        else if(num < 0.67)
+            escolhaC = "PAPEL";
+        else
+            escolhaC = "TESOURA";
+        
+       if(escolhaC === escolhaP){
+           resultado = "EMPATE";
+       }            
+        else if((escolhaP === "PEDRA" && escolhaC === "TESOURA") || (escolhaP === "TESOURA" && escolhaC === "PAPEL") || (escolhaP === "PAPEL" && escolhaC === "PEDRA")){
+            resultado = "Você ganhou!";
+        }            
+        else{
+            resultado = "Computador ganhou!";
+        }
+            
+            
+        alert("Você escolheu " + escolhaP + "\nO computador escolheu  " + escolhaC + "\n\n\t\tRESULTADO FINAL\n" + resultado);
+        
+    </script>   
+</body>
+</html>
