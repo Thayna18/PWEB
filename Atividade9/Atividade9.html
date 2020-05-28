@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+</head>
+<body>
+
+   <input id = "text" type="text">
+   <label for="aumentar"> Aumentar letra</label>
+   <input id = "aumentar" onchange = "aumentar()" type="checkbox">
+   <label for="dimunuir"> Diminuir letra</label>
+   <input id = "diminuir" onchange = "diminuir()" type="checkbox">
+
+
+  <script type="text/javascript">
+
+  function aumentar(){
+    
+    let text = document.getElementById('text').value;
+    let aumentado = text.toUpperCase();
+   
+    document.getElementById('text').value = aumentado;
+    document.getElementsById("diminuir").checked = false;
+
+   }
+
+   function diminuir() {
+    let text = document.getElementById('text').value;
+    let diminuido = text.toLowerCase();
+   
+    document.getElementById('text').value = diminuido;
+    document.getElementsById("aumentar").checked = false;
+   }
+    
+   </script>
+
+</body>
+</html>
